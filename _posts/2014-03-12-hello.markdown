@@ -601,13 +601,19 @@ snapshotter.region = …;
 {% endhighlight %}
 
 
-##SocialFramework+PromiseKit
+## And…
 
-Available! See the headers.
+These are less complete, but started:
 
-##StoreKit+PromiseKit
+* Social+PromiseKit
+* StoreKit+PromiseKit
+* AVFoundation+PromiseKit
 
-Available, though just a start. See the headers.
+##PromiseKit for Third Party Libraries
+
+These are maintained outside of PromiseKit, available for third party libraries that you use:
+
+* [Parse+PromiseKit](https://github.com/hathway/Parse-PromiseKit)
 
 
 #More Documentation
@@ -681,7 +687,7 @@ Becomes this:
 
 `PromiseFulfiller` is `typedef void (^PromiseFulfiller)(id)`, i.e. a block that takes a parameter of `id` and returns `void`.
 
-For the community’s benefit, someone should create a `Parse+PromiseKit` pod.
+For the community’s benefit, [@djtarazona](https://github.com/djtarazona) has created the [Parse+PromiseKit](https://github.com/hathway/Parse-PromiseKit) pod.
 
 
 ##Wrapping e.g. `AFNetworking`
